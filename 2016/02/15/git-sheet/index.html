@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>git常用命令清单 | 若水的后花园</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="生成ssh 第一步输入用户名密码 $ git config –global user.name “yourName” $ git config –global user.email “yourEmail”  第二步生成ssh 全部按回车键$ ssh-keygen -t rsa -C “yourEmail”  最后把生成的公钥id_rsa.pub添加到github上   常用命令克隆远程项目 git">
+<meta name="keywords" content="git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git常用命令清单">
+<meta property="og:url" content="http://msisliao.github.io/2016/02/15/git-sheet/index.html">
+<meta property="og:site_name" content="若水的后花园">
+<meta property="og:description" content="生成ssh 第一步输入用户名密码 $ git config –global user.name “yourName” $ git config –global user.email “yourEmail”  第二步生成ssh 全部按回车键$ ssh-keygen -t rsa -C “yourEmail”  最后把生成的公钥id_rsa.pub添加到github上   常用命令克隆远程项目 git">
+<meta property="og:updated_time" content="2017-03-17T07:47:54.263Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="git常用命令清单">
+<meta name="twitter:description" content="生成ssh 第一步输入用户名密码 $ git config –global user.name “yourName” $ git config –global user.email “yourEmail”  第二步生成ssh 全部按回车键$ ssh-keygen -t rsa -C “yourEmail”  最后把生成的公钥id_rsa.pub添加到github上   常用命令克隆远程项目 git">
+  
+    <link rel="alternative" href="/atom.xml" title="若水的后花园" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://msisliao.github.io/img/user.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">若水</a></h1>
+		</hgroup>
+
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						<li>友情链接</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/msisliao" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/apple/" style="font-size: 10px;">apple</a> <a href="/tags/css/" style="font-size: 20px;">css</a> <a href="/tags/css3/" style="font-size: 10px;">css3</a> <a href="/tags/demo/" style="font-size: 10px;">demo</a> <a href="/tags/flex/" style="font-size: 10px;">flex</a> <a href="/tags/flexbox/" style="font-size: 10px;">flexbox</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/iis/" style="font-size: 10px;">iis</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/php配置/" style="font-size: 10px;">php配置</a> <a href="/tags/svg/" style="font-size: 10px;">svg</a>
+					</div>
+				</section>
+				
+
+                
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+                        
+						<a target="_blank" class="main-nav-link switch-friends-link" href="http://iwhynot.me/">歪闹大神</a>
+                        
+					</div>
+				</section>
+                
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">若水</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="http://msisliao.github.io/img/user.jpg" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">若水</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/msisliao" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-git-sheet" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/02/15/git-sheet/" class="article-date">
+  	<time datetime="2016-02-15T09:46:19.000Z" itemprop="datePublished">2016-02-15</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      git常用命令清单
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="生成ssh"><a href="#生成ssh" class="headerlink" title="生成ssh"></a>生成ssh</h2><ul>
+<li><p><strong>第一步输入用户名密码</strong></p>
+<p>$ git config –global user.name “yourName”</p>
+<p>$ git config –global user.email “yourEmail”</p>
+</li>
+<li><p><strong>第二步生成ssh 全部按回车键</strong><br>$ ssh-keygen -t rsa -C “yourEmail”</p>
+</li>
+<li><p>最后把生成的公钥<code>id_rsa.pub</code>添加到github上</p>
+</li>
+</ul>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><span style="color:#999;font-size:14px;">克隆远程项目</span><br> git clone [url]</p>
+<p><span style="color:#999;font-size:14px;">初始化本地仓库</span><br>  git init</p>
+<a id="more"></a>
+<p><span style="color:#999;font-size:14px;">切换分支</span><br>  git checkout master</p>
+<p> <span style="color:#999;font-size:14px;">添加指定目录到暂存区，包括子目录</span><br>  git add [dir]</p>
+<p> <span style="color:#999;font-size:14px;">添加当前目录的所有文件到暂存区</span><br>  git add .</p>
+<p><span style="color:#999;font-size:14px;">进行一次commit</span><br>  git commit -m ‘提交说明’</p>
+<p><span style="color:#999;font-size:14px;">提交代码到分之上</span><br>  git push origin master</p>
+<p><span style="color:#999;font-size:14px;">相当于从远程获取最新的版本并merge(合并）到本地的master分支，相当于git fetch和git merge</span><br>  git pull origin master</p>
+<p><span style="color:#999;font-size:14px;">创建一个分支，名字为branch-name</span><br>  git branch branch-name</p>
+<h2 id="隆重的分割线"><a href="#隆重的分割线" class="headerlink" title="隆重的分割线"></a>隆重的分割线</h2><p> <span style="color:#999;font-size:14px;">删除工作区文件，并且将这次删除放入暂存区</span><br>  git rm [file1] [file2] …</p>
+<p> <span style="color:#999;font-size:14px;">停止追踪指定文件，但该文件会保留在工作区</span><br>  git rm –cached [file]</p>
+<p> <span style="color:#999;font-size:14px;">改名文件，并且将这个改名放入暂存区</span><br>  git mv [file-original] [file-renamed]</p>
+<p><span style="color:#999;font-size:14px;">删除分支名</span><br>   git branch -d branch-name</p>
+<p><span style="color:#999;font-size:14px;">删除远程的test分支</span><br>   git branch -d -r origin/test</p>
+<p><span style="color:#999;font-size:14px;">提交本地的test分支做为远程的master分支</span><br>   git push origin test:master</p>
+<p><span style="color:#999;font-size:14px;">合并分支</span><br>   git merge origin/master</p>
+<p><span style="color:#999;font-size:14px;">显示所有的分支，包括本地和远程的分支</span><br>   git branch -a</p>
+<p><span style="color:#999;font-size:14px;">修改本地分支的名字  ，ori-branch为原来的分支名，dist-branch要修改后的分支名</span><br>   git branch -m ori-branch dist-branch</p>
+<p><span style="color:#999;font-size:14px;">从远程的master分支下载最新的版本到本地，但是不会自动merge(合并）</span><br>   git fetch  origin master</p>
+<p><span style="color:#999;font-size:14px;">把远程的master分支下载到本地的remote-branch分支，这个remote-branch 分支会被自动创建，不存在的时候</span><br>   git fetch origin master:remote-branch</p>
+<p><span style="color:#999;font-size:14px;">比较现在所处的分，跟remote-branch分支有什么差别</span><br>   git diff remote-branch</p>
+<p><span style="color:#999;font-size:14px;">把remote-branch分支合并到现在的分支上面，如果没有冲突，会自动完成合并。当出现冲突的时候，需要手动修改conflict ,再提交commit</span><br>   git merge –no-ff remote-branch</p>
+<p><span style="color:#999;font-size:14px;">比较本地的master分支和origin/master分支的差别</span><br>   git log -p master ../origin/master</p>
+<p><span style="color:#999;font-size:14px;">基于base_branch_name分支一个名为new_branch的分支</span><br>   git checkout -b new_branch base_branch_name</p>
+<p><span style="color:#999;font-size:14px;">基于master分支创建一个没有父节点的分支，名字为gh-pages</span><br>   git checkout –orphan gh-pages</p>
+<p><span style="color:#999;font-size:14px;">添加远程仓库，另名为origin</span><br>   git remote add origin git@github.com:username/project-name.git</p>
+<p><span style="color:#999;font-size:14px;">删除远程分支的另名，origin,如果要重新添加，就要用git remote add url</span><br>   git remote rm origin</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/02/20/iis-php/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          在iis中部署或配置php
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/01/18/hello/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">hexo博客的搭建与主题替换</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="git-sheet" data-title="git常用命令清单" data-url="http://msisliao.github.io/2016/02/15/git-sheet/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2017 若水
+			本站总访问量<span id="busuanzi_value_site_pv"></span>次
+			本站访客数<span id="busuanzi_value_site_uv"></span>人次
+			本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
