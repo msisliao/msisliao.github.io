@@ -119,7 +119,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/apple/" style="font-size: 10px;">apple</a> <a href="/tags/css/" style="font-size: 20px;">css</a> <a href="/tags/css3/" style="font-size: 10px;">css3</a> <a href="/tags/demo/" style="font-size: 10px;">demo</a> <a href="/tags/flex/" style="font-size: 10px;">flex</a> <a href="/tags/flexbox/" style="font-size: 10px;">flexbox</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/iis/" style="font-size: 10px;">iis</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/php配置/" style="font-size: 10px;">php配置</a> <a href="/tags/svg/" style="font-size: 10px;">svg</a>
+						<a href="/tags/apple/" style="font-size: 10px;">apple</a> <a href="/tags/css/" style="font-size: 20px;">css</a> <a href="/tags/css3/" style="font-size: 15px;">css3</a> <a href="/tags/demo/" style="font-size: 10px;">demo</a> <a href="/tags/flex/" style="font-size: 10px;">flex</a> <a href="/tags/flexbox/" style="font-size: 10px;">flexbox</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/iis/" style="font-size: 10px;">iis</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/php配置/" style="font-size: 10px;">php配置</a> <a href="/tags/svg/" style="font-size: 10px;">svg</a>
 					</div>
 				</section>
 				
@@ -246,7 +246,7 @@
 <p>   把相应的信息填上，module选择Fast..,然后下一框选择自己解压的php文件夹中的php-cgi.exe,填完后在请求限制中我们勾选上文件类型，最后确定。<br>   <img src="./img/iis-c.png" alt="" title="Optional title"></p>
 <p>   确定后我们返回主界面，点击ISAPI和CGI限制，在点击右侧添加，路径为D:\php\php-cgi.exe，描述可写php，允许执行扩展路径，确定。<br>      <img src="./img/iis-d.png" alt="" title="Optional title"><br>      <img src="./img/iis-e.png" alt="" title="Optional title"></p>
 <p>到这为止，我们的配置就完成了。</p>
-<h3 id="第五步-我们来测试下是否成功了"><a href="#第五步-我们来测试下是否成功了" class="headerlink" title="第五步: 我们来测试下是否成功了"></a>第五步: 我们来测试下是否成功了</h3><p>在站点下建个php页面，我们起名叫aa.php,页面中输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">  echo &apos;这是php页面&apos;</div><div class="line">?&gt;</div></pre></td></tr></table></figure></p>
+<h3 id="第五步-我们来测试下是否成功了"><a href="#第五步-我们来测试下是否成功了" class="headerlink" title="第五步: 我们来测试下是否成功了"></a>第五步: 我们来测试下是否成功了</h3><p>在站点下建个php页面，我们起名叫aa.php,页面中输入<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?php</span></span></div><div class="line">  <span class="keyword">echo</span> <span class="string">'这是php页面'</span></div><div class="line"><span class="meta">?&gt;</span></div></pre></td></tr></table></figure></p>
 <p>打开localhost:8085/ajax/aa.php(这里是自己配置的端口)</p>
 <p><img src="./img/iis-f.png" alt="" title="Optional title"></p>
 <p>是不是可以成功输出啊，哈！继续努力~~</p>
