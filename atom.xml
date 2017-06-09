@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>若水</title>
+  <subtitle>比你努力的人还在努力，你还有什么理由不努力</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://msisliao.github.io/"/>
+  <updated>2017-06-07T09:14:42.781Z</updated>
+  <id>http://msisliao.github.io/</id>
+  
+  <author>
+    <name>若水</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ECMAScript6之字符串的特性</title>
+    <link href="http://msisliao.github.io/2017/05/29/study-es6-03/"/>
+    <id>http://msisliao.github.io/2017/05/29/study-es6-03/</id>
+    <published>2017-05-29T09:54:17.000Z</published>
+    <updated>2017-06-07T09:14:42.781Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;ES6对字符串新增了一些函数和操作规范，使得开发者对字符串的操作更加方便，以往需要借助其他javascript代码才能实现的效果，现在利用这些函数即可快速实现。&lt;/p&gt;
+&lt;h4 id=&quot;模板字符串&quot;&gt;&lt;a href=&quot;#模板字符串&quot; class=&quot;headerlink&quot; t
+    
+    </summary>
+    
+      <category term="ECMAScript6" scheme="http://msisliao.github.io/categories/ECMAScript6/"/>
+    
+    
+      <category term="javascript" scheme="http://msisliao.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ECMAScript6之解构赋值</title>
+    <link href="http://msisliao.github.io/2017/05/28/study-es6-02/"/>
+    <id>http://msisliao.github.io/2017/05/28/study-es6-02/</id>
+    <published>2017-05-28T07:54:17.000Z</published>
+    <updated>2017-06-06T10:00:47.100Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;什么是解构赋值？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官方的解释：ES6允许按照一定模式，从数组和对象中提取值，对变量进行赋值，这被称为解构（Destructuring）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面用代码来解释到底什么是解构赋值？&lt;/p&gt;
+&lt;h4 
+    
+    </summary>
+    
+      <category term="ECMAScript6" scheme="http://msisliao.github.io/categories/ECMAScript6/"/>
+    
+    
+      <category term="javascript" scheme="http://msisliao.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ECMAScript6之初识变量</title>
+    <link href="http://msisliao.github.io/2017/05/28/study-es6-01/"/>
+    <id>http://msisliao.github.io/2017/05/28/study-es6-01/</id>
+    <published>2017-05-28T01:54:17.000Z</published>
+    <updated>2017-06-06T10:00:46.970Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;ECMAScript 6（以下简称ES6）是JavaScript语言的下一代标准。因为当前版本的ES6是在2015年发布的，所以又称ECMAScript 2015，也就是说，ES6就是ES2015。&lt;/p&gt;
+&lt;p&gt;虽然目前并不是所有浏览器都能兼容ES6全部特性，但越来越多的
+    
+    </summary>
+    
+      <category term="ECMAScript6" scheme="http://msisliao.github.io/categories/ECMAScript6/"/>
+    
+    
+      <category term="javascript" scheme="http://msisliao.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css渐变之混合模式背景</title>
+    <link href="http://msisliao.github.io/2017/05/20/css-gradient/"/>
+    <id>http://msisliao.github.io/2017/05/20/css-gradient/</id>
+    <published>2017-05-20T03:50:35.000Z</published>
+    <updated>2017-06-05T07:59:32.062Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;利用css渐变实现混合模式背景图&lt;br&gt;&lt;img src=&quot;/2017/05/20/css-gradient/11.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight apache&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="css" scheme="http://msisliao.github.io/tags/css/"/>
+    
+      <category term="css3" scheme="http://msisliao.github.io/tags/css3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跟着11张思维导图学习JavaScript</title>
+    <link href="http://msisliao.github.io/2017/05/01/js-study-map/"/>
+    <id>http://msisliao.github.io/2017/05/01/js-study-map/</id>
+    <published>2017-05-01T08:21:36.000Z</published>
+    <updated>2017-06-05T07:59:31.683Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习的道路就是要不断的总结归纳，好记性不如烂笔头，so，下面将 po 出我收集的 11 张 javascript 相关的思维导图（非原创）。&lt;/p&gt;
+&lt;font style=&quot;color:#888&quot;&gt; 知识，没有进阶的技巧。&lt;br&gt;只是，万丈高楼平地起；只是，千里之行始于足下；只是，千里长提溃于蚁穴。&lt;br&gt;能把简单的做好就是不简单，你能走多远，不是在于你有多聪明，而是取决于你有多勤奋，共勉。&lt;/font&gt;
+
+
+
+&lt;h3 id=&quot;分别归类为：&quot;&gt;&lt;a href=&quot;#分别归类为：&quot; class=&quot;headerlink&quot; title=&quot;分别归类为：&quot;&gt;&lt;/a&gt;分别归类为：&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;javascript变量&lt;/li&gt;
+&lt;li&gt;javascript运算符&lt;/li&gt;
+&lt;li&gt;javascript数组&lt;/li&gt;
+&lt;li&gt;javascript流程语句&lt;/li&gt;
+&lt;li&gt;javascript字符串函数&lt;/li&gt;
+&lt;li&gt;javascript函数基础&lt;/li&gt;
+&lt;li&gt;javascript基础DOM操作&lt;/li&gt;
+&lt;li&gt;文档对象模型DOM&lt;/li&gt;
+&lt;li&gt;浏览器对象BOM&lt;/li&gt;
+&lt;li&gt;javascript正则表达式&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="javascript" scheme="http://msisliao.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用css实现同一容器不同方位hover时的效果</title>
+    <link href="http://msisliao.github.io/2017/04/13/csshover/"/>
+    <id>http://msisliao.github.io/2017/04/13/csshover/</id>
+    <published>2017-04-13T03:48:53.000Z</published>
+    <updated>2017-06-05T07:59:31.812Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨天某技术群讨论的一道css题挺不错的，说的是同一个div鼠标从不同方向划过展示不同的效果，&lt;/p&gt;
+&lt;p&gt;效果预览如下：&lt;br&gt; &lt;img src=&quot;/2017/04/13/csshover/cssh.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;工具录制的gif图，有些卡顿&lt;br&gt;浏览地址看这 ：&lt;a href=&quot;http://output.jsbin.com/qixomayeqi&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://output.jsbin.com/qixomayeqi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第一眼看这感觉是js实现的吧，后群里集思广益，发现css也可以实现的，方法就是用了四个div定位在容器的四边，当你鼠标滑过时让div显示出来就行，挺有意思的&lt;/p&gt;
+&lt;p&gt;让我们看看是怎么实现的,来点击more查看详情吧&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="css" scheme="http://msisliao.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何用photoshop在AI中创建svg</title>
+    <link href="http://msisliao.github.io/2017/03/26/creat-svg/"/>
+    <id>http://msisliao.github.io/2017/03/26/creat-svg/</id>
+    <published>2017-03-26T12:37:59.000Z</published>
+    <updated>2017-06-05T07:59:31.606Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 作为一名伪前端人员砸是不能对所有设计工具都运用自如的，所以这里教大家一个非常简单的方法借用Photoshop来创建SVG格式的矢量图，以便于在开发页面中适用不同终端，而且还很方便的对其进行修改（颜色、大小等），所以当你有icon要在网页中用到时请试着用svg来啊，至少不用麻烦设计师设计多套icon，同时也方便了自己。&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;1、打开Photoshop用形状工具画个形状出来&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; 这里我的设计稿中UI已经帮我画了个出来，我就不画了&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;2、用选择形状工具选取我们画的形状，如下图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;左边是选择形状工具，右边是用工具点击后的样子，这里可能一不小心就会变成编辑的状态，在选择了形状的状态下我们复制一下这个形状&lt;code&gt;ctrl+v&lt;/code&gt;&lt;br&gt; &lt;img src=&quot;/2017/03/26/creat-svg/svg/svg1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="svg" scheme="http://msisliao.github.io/tags/svg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css实现apple风格的开关按钮</title>
+    <link href="http://msisliao.github.io/2017/02/28/css-apple/"/>
+    <id>http://msisliao.github.io/2017/02/28/css-apple/</id>
+    <published>2017-02-28T09:13:25.000Z</published>
+    <updated>2017-06-05T07:59:32.199Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 关于用css模仿apple风格的开关按钮效果，经常会在移动端中用到，这次也用到了就想到写篇关于这个按钮的博客吧&lt;/p&gt;
+&lt;p&gt; 我们先来看看效果&lt;/p&gt;
+&lt;p&gt; &lt;img src=&quot;/2017/02/28/css-apple/appleswitch.gif&quot; alt=&quot;用css模仿apple风格的开关按钮&quot; title=&quot;Optional title&quot;&gt;&lt;/p&gt;
+&lt;p&gt; 开与关的效果没有用js，而是利用&lt;strong&gt;input:checked&lt;/strong&gt;的状态&lt;/p&gt;
+&lt;p&gt; 废话不多话，我们来上一段代码吧&lt;/p&gt;
+&lt;h3 id=&quot;HTML&quot;&gt;&lt;a href=&quot;#HTML&quot; class=&quot;headerlink&quot; title=&quot;HTML&quot;&gt;&lt;/a&gt;HTML&lt;/h3&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;span &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt;&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;switch&quot;&lt;/span&gt;&amp;gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;checkbox&quot;&lt;/span&gt;/&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;em&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;em&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="css" scheme="http://msisliao.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>flex盒子模型解析</title>
+    <link href="http://msisliao.github.io/2017/02/20/flex%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B%E8%A7%A3%E6%9E%90/"/>
+    <id>http://msisliao.github.io/2017/02/20/flex盒子模型解析/</id>
+    <published>2017-02-20T09:22:44.000Z</published>
+    <updated>2017-06-05T07:59:31.874Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;flex-flow-布局方向&quot;&gt;&lt;a href=&quot;#flex-flow-布局方向&quot; class=&quot;headerlink&quot; title=&quot;flex-flow 布局方向&quot;&gt;&lt;/a&gt;flex-flow 布局方向&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;flex-direction 方向：水平或者垂直
+flex-wrap ：是否换行 wrap nowarp
+
+//示例：
+ul{
+  flex-flow: row  wrap;
+}
+//相当于
+ul{
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="css3" scheme="http://msisliao.github.io/tags/css3/"/>
+    
+      <category term="flex" scheme="http://msisliao.github.io/tags/flex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git遇到的问题</title>
+    <link href="http://msisliao.github.io/2016/02/24/git%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://msisliao.github.io/2016/02/24/git遇到的问题/</id>
+    <published>2016-02-24T10:00:51.000Z</published>
+    <updated>2017-06-05T07:59:32.257Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近有点闲，正好让我写写博客，熟悉下 &lt;code&gt;markdown&lt;/code&gt; 加上把今天遇到的奇奇怪怪的问题记录下，从昨天下午开始至今天上午，一直在弄万恶的git 所出现的疑难杂症.&lt;br&gt;不久前建了个用 &lt;code&gt;gh-pages&lt;/code&gt; 并且利用&lt;code&gt;hexo&lt;/code&gt;搭建了个博客，就是此站点了…,&lt;br&gt;自从博客建好后，许久没有发布到远程，昨天一试，将写好的博客发布上去,既然提示说没有权限访问~~~~&lt;/p&gt;
+&lt;p&gt;提示如下&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xr7h9.com1.z0.glb.clouddn.com/blog4.png&quot; alt=&quot;&quot; title=&quot;assert函数效果图&quot;&gt;&lt;br&gt;看着意思是需要 &lt;code&gt;remote&lt;/code&gt; 呗，好吧，试了下&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote add origin git@github.com:***.git
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="新随笔" scheme="http://msisliao.github.io/categories/%E6%96%B0%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="git" scheme="http://msisliao.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>demo</title>
+    <link href="http://msisliao.github.io/2016/02/23/demos/"/>
+    <id>http://msisliao.github.io/2016/02/23/demos/</id>
+    <published>2016-02-23T08:47:46.000Z</published>
+    <updated>2017-06-05T07:59:31.996Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;工作闲余，整理些常用的jsDemo：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://msisliao.github.io/demo/10-QQ%E8%8F%9C%E5%8D%95.html&quot;&gt;模仿QQ列表好友菜单&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ht
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="css" scheme="http://msisliao.github.io/tags/css/"/>
+    
+      <category term="demo" scheme="http://msisliao.github.io/tags/demo/"/>
+    
+      <category term="javascript" scheme="http://msisliao.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在iis中部署或配置php</title>
+    <link href="http://msisliao.github.io/2016/02/20/iis-php/"/>
+    <id>http://msisliao.github.io/2016/02/20/iis-php/</id>
+    <published>2016-02-20T03:45:25.000Z</published>
+    <updated>2017-06-05T08:00:23.459Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 一直想练习ajax做点demo，陆陆续续的也看了挺多教程，但一直没实战下，今天又重温一遍视频，首先讲的是部署php环境搭建服务器，视频中老师用阿帕奇集成环境，我下载这个也不想下载，之前同事有过在iis部署php的方法，但我都忘了，今天自己又部署了一遍，结果竟然可以运行php文件，哈~~，因为部署成功了，所以我决定把过程记录下来（开心的一刻）。&lt;/p&gt;
+&lt;p&gt; 首先在网上看了些博客，关于怎样在iis中配置部署php环境的相关文章，来，跟我着我一步一步往下走！！&lt;/p&gt;
+&lt;h3 id=&quot;第一步：官网下载php文件包-http-windows-php-net-download&quot;&gt;&lt;a href=&quot;#第一步：官网下载php文件包-http-windows-php-net-download&quot; class=&quot;headerlink&quot; title=&quot;第一步：官网下载php文件包 http://windows.php.net/download/&quot;&gt;&lt;/a&gt;第一步：官网下载php文件包 &lt;a href=&quot;http://windows.php.net/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://windows.php.net/download/&lt;/a&gt;&lt;/h3&gt;&lt;p&gt; 我这里下载的版本是 php-5.6.3 ，看人家是下载这个，我就下载了这个~~&lt;/p&gt;
+&lt;p&gt;  将下载的文件解压到一个盘里，我解压的是在D，新建了个php文件夹 &lt;code&gt;D:\php&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;第二步：将php下的php-ini-development这个文件拷贝一份重命名php-ini&quot;&gt;&lt;a href=&quot;#第二步：将php下的php-ini-development这个文件拷贝一份重命名php-ini&quot; class=&quot;headerlink&quot; title=&quot;第二步：将php下的php.ini-development这个文件拷贝一份重命名php.ini&quot;&gt;&lt;/a&gt;第二步：将php下的&lt;code&gt;php.ini-development&lt;/code&gt;这个文件拷贝一份重命名&lt;code&gt;php.ini&lt;/code&gt;&lt;/h3&gt;&lt;h3 id=&quot;第三步：配置我们重命名的php-ini文件&quot;&gt;&lt;a href=&quot;#第三步：配置我们重命名的php-ini文件&quot; class=&quot;headerlink&quot; title=&quot;第三步：配置我们重命名的php.ini文件&quot;&gt;&lt;/a&gt;第三步：配置我们重命名的php.ini文件&lt;/h3&gt;&lt;p&gt; 注：改了哪行就把哪行前面的分号去掉&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;①修改扩展路径：extension_dir = “D:\PHP\ext” （这里写自己的实际路径）&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;②时区：date.timezone = asia/shanghai （也可以是beijing,默认是空的啥也没有）&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="php配置" scheme="http://msisliao.github.io/tags/php%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git常用命令清单</title>
+    <link href="http://msisliao.github.io/2016/02/15/git-sheet/"/>
+    <id>http://msisliao.github.io/2016/02/15/git-sheet/</id>
+    <published>2016-02-15T09:46:19.000Z</published>
+    <updated>2017-06-05T07:59:32.127Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;生成ssh&quot;&gt;&lt;a href=&quot;#生成ssh&quot; class=&quot;headerlink&quot; title=&quot;生成ssh&quot;&gt;&lt;/a&gt;生成ssh&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;第一步输入用户名密码&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;$ git config –global user.name “yourName”&lt;/p&gt;
+&lt;p&gt;$ git config –global user.email “yourEmail”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;第二步生成ssh 全部按回车键&lt;/strong&gt;&lt;br&gt;$ ssh-keygen -t rsa -C “yourEmail”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;最后把生成的公钥&lt;code&gt;id_rsa.pub&lt;/code&gt;添加到github上&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;color:#999;font-size:14px;&quot;&gt;克隆远程项目&lt;/span&gt;&lt;br&gt; git clone [url]&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#999;font-size:14px;&quot;&gt;初始化本地仓库&lt;/span&gt;&lt;br&gt;  git init&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="git" scheme="http://msisliao.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客的搭建与主题替换</title>
+    <link href="http://msisliao.github.io/2016/01/18/hello/"/>
+    <id>http://msisliao.github.io/2016/01/18/hello/</id>
+    <published>2016-01-18T08:47:46.000Z</published>
+    <updated>2017-06-05T07:59:32.298Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;关于如何搭建这个博客与为什么搭建这个博客&lt;/p&gt;
+&lt;h3 id=&quot;我是如何建立这个博客的&quot;&gt;&lt;a href=&quot;#我是如何建立这个博客的&quot; class=&quot;headerlink&quot; title=&quot;我是如何建立这个博客的&quot;&gt;&lt;/a&gt;&lt;strong&gt;我是如何建立这个博客的&lt;/stro
+    
+    </summary>
+    
+      <category term="新随笔" scheme="http://msisliao.github.io/categories/%E6%96%B0%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="hexo" scheme="http://msisliao.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
