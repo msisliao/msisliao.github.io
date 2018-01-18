@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://msisliao.github.io/"/>
-  <updated>2018-01-10T10:53:47.000Z</updated>
+  <updated>2018-01-18T08:52:17.000Z</updated>
   <id>http://msisliao.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于vue-cli构建的简易demo</title>
+    <link href="http://msisliao.github.io/2018/01/16/vue-cli-demo1/"/>
+    <id>http://msisliao.github.io/2018/01/16/vue-cli-demo1/</id>
+    <published>2018-01-16T06:36:53.000Z</published>
+    <updated>2018-01-18T08:52:17.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;vue&quot;&gt;&lt;a href=&quot;#vue&quot; class=&quot;headerlink&quot; title=&quot;vue&quot;&gt;&lt;/a&gt;vue&lt;/h1&gt;&lt;p&gt;基于vue-cli构建的简易demo（vue2.0、vue-router、vue-resource）&lt;/p&gt;
+&lt;blockquote
+      
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="vue" scheme="http://msisliao.github.io/tags/vue/"/>
+    
+  </entry>
   
   <entry>
     <title>css实现数字的动画</title>
