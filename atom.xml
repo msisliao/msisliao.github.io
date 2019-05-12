@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://msisliao.github.io/"/>
-  <updated>2019-05-09T11:00:35.000Z</updated>
+  <updated>2019-05-12T11:23:26.000Z</updated>
   <id>http://msisliao.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue练习创建小说阅读器</title>
+    <link href="http://msisliao.github.io/2019/05/12/vue-book/"/>
+    <id>http://msisliao.github.io/2019/05/12/vue-book/</id>
+    <published>2019-05-12T11:10:36.000Z</published>
+    <updated>2019-05-12T11:23:26.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;app-vue入口页面&quot;&gt;&lt;a href=&quot;#app-vue入口页面&quot; class=&quot;headerlink&quot; title=&quot;app.vue入口页面&quot;&gt;&lt;/a&gt;app.vue入口页面&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;分成底部导航 跟 主视图容器 &lt;code&gt;router-view&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;tabbar-Home为首页&quot;&gt;&lt;a href=&quot;#tabbar-Home为首页&quot; class=&quot;headerlink&quot; title=&quot;tabbar/Home为首页&quot;&gt;&lt;/a&gt;tabbar/Home为首页&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;包含： components/sub/item 和 components/sub/search 、components/sub/header &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;结构： banner切换 与 搜索 和 小说分类楼层&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; 小说楼层单独定义了组件 &lt;code&gt;components/sub/item&lt;/code&gt; , home循环楼层分类名称，并将楼层分类id传给item组件 &lt;code&gt;:booklistId=&amp;#39;{id:item._id}&amp;#39;&lt;/code&gt; , item组件用&lt;code&gt;props: [&amp;quot;booklistId&amp;quot;]&lt;/code&gt; 接收分类id, 并根据分类id获取对应的数据&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;item.vue&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;mouted:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.getlist(&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.booklistId.id);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;methods:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  getlist(id) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;//每个分类id下对应的数据  子组件接收父组件传过来的id 获取对应的数据&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     bootd(id).then(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;params&quot;&gt;res&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; arrdata = res.data.data;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       arrdata.map(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;params&quot;&gt;item&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;         &lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.booklist.push(item.book);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="web前端技术" scheme="http://msisliao.github.io/categories/web%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="vue" scheme="http://msisliao.github.io/tags/vue/"/>
+    
+  </entry>
   
   <entry>
     <title>vue实现搜索页面全选与取消全选</title>
