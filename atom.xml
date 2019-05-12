@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://msisliao.github.io/"/>
-  <updated>2019-05-12T11:23:26.000Z</updated>
+  <updated>2019-05-12T11:38:08.000Z</updated>
   <id>http://msisliao.github.io/</id>
   
   <author>
@@ -21,11 +21,15 @@
     <link href="http://msisliao.github.io/2019/05/12/vue-book/"/>
     <id>http://msisliao.github.io/2019/05/12/vue-book/</id>
     <published>2019-05-12T11:10:36.000Z</published>
-    <updated>2019-05-12T11:23:26.000Z</updated>
+    <updated>2019-05-12T11:38:08.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;app-vue入口页面&quot;&gt;&lt;a href=&quot;#app-vue入口页面&quot; class=&quot;headerlink&quot; title=&quot;app.vue入口页面&quot;&gt;&lt;/a&gt;app.vue入口页面&lt;/h3&gt;&lt;ul&gt;
+      &lt;h3 id=&quot;项目介绍&quot;&gt;&lt;a href=&quot;#项目介绍&quot; class=&quot;headerlink&quot; title=&quot;项目介绍&quot;&gt;&lt;/a&gt;项目介绍&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;主要页面&lt;br&gt;1、首页home.vue分类展示书籍，幻灯片展示热门推荐&lt;br&gt;2、搜索search.vue，上拉加载更多&lt;br&gt;3、书籍详情book.vue加入书架、立即阅读，展示评论，同类书籍推荐&lt;br&gt;4、书籍内容read.vue，获取目录，存储翻阅的章节位置，&lt;br&gt;5、书架bookrack.vue，获取加入书架的书单&lt;/li&gt;
+&lt;li&gt;技术栈&lt;br&gt;vue、vue-cli、axios、vue-router、vuex、localStorege&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;app-vue入口页面&quot;&gt;&lt;a href=&quot;#app-vue入口页面&quot; class=&quot;headerlink&quot; title=&quot;app.vue入口页面&quot;&gt;&lt;/a&gt;app.vue入口页面&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;分成底部导航 跟 主视图容器 &lt;code&gt;router-view&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;tabbar-Home为首页&quot;&gt;&lt;a href=&quot;#tabbar-Home为首页&quot; class=&quot;headerlink&quot; title=&quot;tabbar/Home为首页&quot;&gt;&lt;/a&gt;tabbar/Home为首页&lt;/h3&gt;&lt;ul&gt;
